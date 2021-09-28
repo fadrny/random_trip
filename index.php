@@ -10,7 +10,6 @@ $latte = new Latte\Engine;
 $latte->setTempDirectory(__DIR__ . '/temp');
 
 
-
 $params = [
     'days_in_table' => $database->get_count_of_records(),
     'already_successful' => $database->already_succesful(),
