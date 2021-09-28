@@ -8,4 +8,4 @@
 4. Add names of places into `places` table
 5. All done, its ready
  
-**Jo dalo by se to dělat jednodušeji. mega dalo. A co jako?**
+**Jo, dalo by se to dělat jednodušeji. mega dalo. A co jako?**
