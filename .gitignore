@@ -1,4 +1,5 @@
 /.env.pub
 /.env
 /vendor/
+/.idea/
 /composer.json
