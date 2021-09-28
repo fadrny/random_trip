@@ -21,5 +21,9 @@ if($database->get_count_of_records() > 0){
     $params['maps_url'] = "https://www.google.com/maps/search/?api=1&query=" . urlencode($database->get_latest_record()['place']);
 }
 
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
 $latte->render('index.latte', $params);
 //$html = $latte->renderToString('index.latte');

@@ -24,7 +24,7 @@ class db
     }
 
     //pushes new record to the database
-    function add_new_lottery_record(bool $successful, string  $place) : string|bool
+    function add_new_lottery_record(bool $successful, string $place) : string|bool
     {
         date_default_timezone_set('Europe/Prague');
         $timestamp = date('Y-m-d');
